@@ -1,5 +1,6 @@
 // @ts-check
-import "@cypress/code-coverage/support";
+// COMMENTING OUT TO REMOVE CODE COVERAGE
+// import "@cypress/code-coverage/support";
 import "./commands";
 import { isMobile } from "./utils";
 

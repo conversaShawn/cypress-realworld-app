@@ -47,8 +47,6 @@
     "yup": "0.32.9"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "3.9.10",
-    "@cypress/instrument-cra": "1.4.0",
     "@percy/cypress": "2.3.4",
     "@types/bcryptjs": "2.4.2",
     "@types/bluebird": "3.5.36",
@@ -138,7 +136,7 @@
     "start": "cross-env NODE_ENV=development concurrently yarn:start:react yarn:start:api",
     "start:ci": "cross-env NODE_ENV=test concurrently yarn:start:react:proxy-server yarn:start:api",
     "prestart:ci": "yarn predev:cognito:ci",
-    "start:react": "react-scripts -r @cypress/instrument-cra start",
+    "start:react": "react-scripts start",
     "start:empty": "cross-env NODE_ENV=development EMPTY_SEED=true concurrently yarn:start:react yarn:start:api:watch",
     "lint": "eslint && prettier --check \"**/**.{ts,js,tsx}\" \"*.{json,md,yml}\"",
     "list:dev:users": "cat data/database.json | json -a users | json -a id username",
