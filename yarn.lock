@@ -2788,7 +2788,7 @@
     js-yaml "3.14.1"
     nyc "15.1.0"
 
-"@cypress/instrument-cra@1.4.0":
+"@cypress/instrument-cra@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@cypress/instrument-cra/-/instrument-cra-1.4.0.tgz#c62427b9890e67544e86fd5b927cfdca3ad003d2"
   integrity sha512-gXf540xL0jcUXkWyrA2Ug9rzs+jRkc9EPhnRi8XfbnRjdF4lvnn108N6x0lgTApMTbbpCDbVuskHGXDmIuD3CQ==
